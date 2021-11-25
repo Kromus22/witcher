@@ -64,6 +64,6 @@
   }
 
   .navigation__list_active {
-    display: block;
+    display: flex;
   }
 }

@@ -3,7 +3,6 @@
   --height: 12px;
   --color: #fff;
   --size: 2px;
-  display: block;
   position: relative;
   width: var(--width);
   height: var(--height);
