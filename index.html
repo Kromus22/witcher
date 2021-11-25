@@ -9,7 +9,8 @@
   type="font/woff2"
   crossorigin>
   <link rel="stylesheet" href="css/index.css">
-</head>
+  <script src="js/index.js" type="module" defer></script>
+  </head>
 <body>
   <header class="header">
     <div class="container header__container">
@@ -18,20 +19,23 @@
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link navigation__link_netflix" href="https://www.netflix.com/ru/"></a>
+            <a class="navigation__link navigation__link_netflix" href="https://www.netflix.com/ru/" target="_blank"></a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link navigation__link_okko" href="https://okko.tv"></a>
+            <a class="navigation__link navigation__link_okko" href="https://okko.tv" target="_blank"></a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link navigation__link_kinopoisk" href="https://www.kinopoisk.ru"></a>
+            <a class="navigation__link navigation__link_kinopoisk" href="https://www.kinopoisk.ru" target="_blank"></a>
           </li>
         </ul>
+        <button class="burger navigation__btn">
+          <span class="burger__line"></span>
+        </button>
       </nav>
     </div>
   </header>
   <section class="present">
-    <div class="container">
+    <div class="container present__container">
       <div class="present__hero">
         <h1 class="present__title">Ведьмак</h1>
         <p class="present__tagline">Те, кто связан предназначением, всегда найдут друг друга</p>
